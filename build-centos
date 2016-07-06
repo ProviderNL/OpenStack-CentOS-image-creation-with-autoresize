@@ -15,7 +15,7 @@ sudo virt-install \
     --location=http://mirrors.kernel.org/centos/6/os/x86_64 \
     --initrd-inject=$BIN_DIR/$BUILD_NAME.ks \
     --extra-args="ks=file:/$BUILD_NAME.ks text console=tty0 utf8 console=ttyS0,115200" \
-    --disk path=/var/lib/libvirt/images/$BUILD_NAME.img,size=2,bus=virtio \
+    --disk path=/var/lib/libvirt/images/$BUILD_NAME.img,size=3,bus=virtio \
     --force \
     --noreboot
 
