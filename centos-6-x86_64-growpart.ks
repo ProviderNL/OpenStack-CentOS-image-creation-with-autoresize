@@ -16,7 +16,6 @@ url --url=http://mirrors.kernel.org/centos/6/os/x86_64
 repo --name=base --baseurl=http://mirrors.kernel.org/centos/6/os/x86_64
 repo --name=updates --baseurl=http://mirrors.kernel.org/centos/6/updates/x86_64
 repo --name=epel --baseurl=http://mirrors.kernel.org/fedora-epel/6/x86_64
-repo --name=cloud-init --baseurl=http://repos.fedorapeople.org/repos/openstack/cloud-init/epel-6/
 
 # Common configuration
 rootpw --iscrypted $1$fakehash-bruteforcetocrackitnow
